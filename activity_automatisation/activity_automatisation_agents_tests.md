@@ -1,0 +1,1 @@
+Folder for tests of activity automatisation agents
