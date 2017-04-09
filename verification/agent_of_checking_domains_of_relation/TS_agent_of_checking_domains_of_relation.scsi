@@ -1,0 +1,118 @@
+TS_agent_of_checking_domains_of_relation_all
+=> nrel_main_idtf:
+	[Тест 1. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Струкрута содержит унарные, бинарные, тернарные, квазибинарные и ролевые отношения]
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;
+
+TS_agent_of_checking_domains_of_relation_unary
+=> nrel_main_idtf:
+	[Тест 2. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Структура содержит только унарные отношения]
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;
+
+TS_agent_of_checking_domains_of_relation_binary
+=> nrel_main_idtf:
+	[Тест 3. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Структура содержит только бинарные отношения]
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;
+
+TS_agent_of_checking_domains_of_relation_ternary
+=> nrel_main_idtf:
+	[Тест 4. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Структура содержит только тернарные отношения]
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;
+
+TS_agent_of_checking_domains_of_relation_quasybinary
+=> nrel_main_idtf:
+	[Тест 5. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Структура содержит только квазибинарные отношения]
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;
+
+TS_agent_of_checking_domains_of_relation_role
+=> nrel_main_idtf:
+	[Тест 6. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Структура содержит только ролевые отношения]
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;
+
+TS_agent_of_checking_domains_of_relation_only_correct
+	=> nrel_main_idtf:
+	[Тест 7. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Структура содержит только корректные унарные отношения. Предназначена для проверки вывода комментария "Problematic knowledge base fragments are not found"]
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;

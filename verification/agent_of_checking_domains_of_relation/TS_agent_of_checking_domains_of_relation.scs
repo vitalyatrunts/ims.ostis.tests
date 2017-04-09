@@ -1,0 +1,38 @@
+TS_agent_of_checking_domains_of_relation
+=> nrel_main_idtf:
+	[Тесты. Агент проверки указания доменов для отношения в рамках заданной структуры](* <- lang_ru;; *);;
+
+TS_agent_of_checking_domains_of_relation <- ui_start_sc_element;;
+
+TS_agent_of_checking_domains_of_relation <- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/TS_agent_of_checking_domains_of_relation.html"
+				(* <- lang_ru;; *);; 
+		*);;
+	*);;
+
+TS_agent_of_checking_domains_of_relation -> rrel_key_sc_element:
+	TS_agent_of_checking_domains_of_relation_all;
+	TS_agent_of_checking_domains_of_relation_unary;
+	TS_agent_of_checking_domains_of_relation_binary;
+	TS_agent_of_checking_domains_of_relation_ternary;
+	TS_agent_of_checking_domains_of_relation_quasybinary;
+	TS_agent_of_checking_domains_of_relation_role;
+	TS_agent_of_checking_domains_of_relation_only_correct;;
+
+sc_node_struct ->
+TS_agent_of_checking_domains_of_relation_all;
+	TS_agent_of_checking_domains_of_relation_unary;
+	TS_agent_of_checking_domains_of_relation_binary;
+	TS_agent_of_checking_domains_of_relation_ternary;
+	TS_agent_of_checking_domains_of_relation_quasybinary;
+	TS_agent_of_checking_domains_of_relation_role;
+	TS_agent_of_checking_domains_of_relation_only_correct;;
+
+TS_agent_of_checking_domains_of_relation = [*^"file://TS_agent_of_checking_domains_of_relation.scsi"*];;
