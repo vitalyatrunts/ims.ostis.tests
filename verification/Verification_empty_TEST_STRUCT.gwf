@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <contour type="" idtf="Verification_empty_TEST_STRUCT" shapeColor="0" id="33371680" parent="0" left="0" top="0" right="204.547" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="16" y="101"/>
+                <point x="-3" y="551"/>
+                <point x="556" y="555"/>
+                <point x="572" y="87"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>
